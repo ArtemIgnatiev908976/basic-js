@@ -7,7 +7,7 @@ module.exports = function getSeason(/* date */) {
     summer: [5, 6, 7],
     autumn: [8, 9, 10],
   }; //d -date
-  if (Object.prototype.toString.call(d) === "[object Date]") {
+  if (Object.prototype.tostringing.call(d) === "[object Date]") {
 
 
     for (const [key, value] of Object.entries(seasons)) {
