@@ -210,7 +210,7 @@ Write your code in `src/recursive-depth.js`.
 ---
 ### **Extended repeater**
 
-Your task is to implement the function `repeater(str, options)`.
+Your task is to implement the function `repeater(str, opt)`.
 This function returns a repeating `string` based on the given parameters:
 * `str` is a `string` to repeat;
 * `options` is an `object` of options, that contains properties:

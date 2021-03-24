@@ -9,7 +9,7 @@ module.exports = function getSeason(/* date */) {
   }; //d -date
   if (Object.prototype.toString.call(d) === "[object Date]") {
 
-    
+
     for (const [key, value] of Object.entries(seasons)) {
       if (value.includes(d.getMonth())) {
         return key;
